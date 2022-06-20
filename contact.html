@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="#" id="contactForm">
+                        <form class="row contact_form"  id="contactForm">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
@@ -103,11 +103,9 @@
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="primary_btn">
+                                <button class="primary_btn" onclick="submit2()">
                                     <span>Send Message</span>
-                                    <script>
-                                        alert("I will Get In Touch with You.")
-                                    </script>
+                                    
                                 </button>
                             </div>
                         </form>
@@ -145,6 +143,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </footer>
     
+
+    <script>
+        function submit2(){
+            alert("I will Get In Touch with You.");
+        }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
